@@ -1,0 +1,65 @@
+@charset "utf-8";
+html, body {
+	width:100%;
+	background:#FFFFFF;
+	color:#8113B6;
+}
+
+/* =ヘッダー ------------------------------------------------------------------*/
+header {
+	padding:10px 0 20px;
+	text-align:center;
+}
+header h1 {
+	line-height:2;
+	font-weight:bold;
+	font-size:18px;
+}
+header .desc {
+	line-height:2;
+	font-size:8px;
+}
+
+/* =セクション
+------------------------------------------------------------------*/
+section {
+	text-align:center;
+}
+section .roulette_container {
+	margin:0 0 20px;
+}
+section img {
+	margin:0 auto;
+}
+section .btn_container {
+	margin:0 0 20px 0;
+}
+section button {
+	background:#8113B6;
+	color:#FFFFFF;
+	border-radius:100px;
+	width:70px;
+	height:70px;
+	border:none;
+	font-weight:bold;
+	text-align:center;
+}
+section .link {
+	margin:0 0 1000px 0;
+}
+/*
+.start {
+	background:#00529A;
+	color:#FFFFFF;
+}
+.stop {
+	background:#F06464;
+	color:#FFFFFF;
+}
+*/
+
+/* =フォント
+------------------------------------------------------------------*/
+.ikamodoki{
+	font-family:ikamodoki;
+}
